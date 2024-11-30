@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noleggio veicoli di Lusso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Noleggio veicoli di Lusso</h1>
+            <nav>
+                <ul>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="cars">
+        <div class="container">
+            <h2>i nostri veicoli</h2>
+            <!-- Auto 1: Ferrari -->
+            <div class="car-card">
+                <img src="images/ferrari 488 spider.jpg" alt="Ferrari" class="car-image">
+                <div class="car-info">
+                    <h3>Ferrari 488 Spider</h3>
+                    <p class="price">€5000 al giorno</p>
+                    <input type="number" id="quantity-1" min="1" value="1">
+                    <button onclick="addToCart('Ferrari 488 Spider', 5000, document.getElementById('quantity-1').value)">Aggiungi al carrello</button>
+                </div>
+            </div>
+            <!-- Auto 2: Lamborghini -->
+            <div class="car-card">
+                <img src="images/Lamborghini Aventador.jpg" alt="Lamborghini" class="car-image">
+                <div class="car-info">
+                    <h3>Lamborghini Aventador</h3>
+                    <p class="price">€5000 al giorno</p>
+                    <input type="number" id="quantity-2" min="1" value="1">
+                    <button onclick="addToCart('Lamborghini Aventador', 5000, document.getElementById('quantity-2').value)">Aggiungi al carrello</button>
+                </div>
+            </div>
+            <!-- Auto 3: Porsche -->
+            <div class="car-card">
+                <img src="images/Porche 911 turbo.avif " alt="Porsche" class="car-image">
+                <div class="car-info">
+                    <h3>Porsche 911 Turbo</h3>
+                    <p class="price">€4575 al giorno</p>
+                    <input type="number" id="quantity-3" min="1" value="1">
+                    <button onclick="addToCart('Porsche 911 Turbo', 4575, document.getElementById('quantity-3').value)">Aggiungi al carrello</button>
+                </div>
+            </div>
+            <!-- Auto 4: Maserati -->
+            <div class="car-card">
+                <img src="images/Maserati GranTurismo.jpg" alt="Maserati" class="car-image">
+                <div class="car-info">
+                    <h3>Maserati GranTurismo</h3>
+                    <p class="price">€4550 al giorno</p>
+                    <input type="number" id="quantity-4" min="1" value="1">
+                    <button onclick="addToCart('Maserati GranTurismo', 4550, document.getElementById('quantity-4').value)">Aggiungi al carrello</button>
+                </div>
+            </div>
+            <!-- Auto 5: Formula 1 -->
+            <div class="car-card">
+                <img src="images/Formula 1 - Red Bull Racing.jpg" alt="Formula 1" class="car-image">
+                <div class="car-info">
+                    <h3>Formula 1 - Red Bull Racing</h3>
+                    <p class="price">€10000 al giorno</p>
+                    <input type="number" id="quantity-5" min="1" value="1">
+                    <button onclick="addToCart('Formula 1 - Red Bull Racing', 10000, document.getElementById('quantity-5').value)">Aggiungi al carrello</button>
+                </div>
+            </div>
+        </div>
+    </section>
+           <!-- Auto 5: Ferrari Puro Sangue -->
+           <div class="car-card">
+           <img src="images/purosangue.jpeg" alt="Ferrari Puro Sangue" class="car-image">
+           <div class="car-info">
+           <h3>Ferrari Puro Sangue</h3>
+           <p class="price">€7000 al giorno</p>
+           <input type="number" id="quantity-5" min="1" value="1">
+           <button onclick="addToCart('Ferrari Puro Sangue', 7000, document.getElementById('quantity-5').value)">Aggiungi al carrello</button>
+                 </div>
+            </div>
+    </section>
+           <!-- Auto 6: Tesla Model X -->
+           <div class="car-card">
+           <img src="images/model x.jpg" alt="Tesla Model X" class="car-image">
+           <div class="car-info">
+           <h3>Tesla Model X</h3>
+           <p class="price">€4000 al giorno</p>
+           <input type="number" id="quantity-6" min="1" value="1">
+           <button onclick="addToCart('Tesla Model X', 4000, document.getElementById('quantity-6').value)">Aggiungi al carrello</button>
+               </div>
+          </div>
+    </section>
+           <!-- Auto 7: Bugatti -->
+           <div class="car-card">
+           <img src="images/bugtti.jpg" alt="Bugatti" class="car-image">
+           <div class="car-info">
+           <h3>Bugatti Chiron</h3>
+           <p class="price">€7500 al giorno</p>
+           <input type="number" id="quantity-7" min="1" value="1">
+           <button onclick="addToCart('Bugatti Chiron', 7500, document.getElementById('quantity-7').value)">Aggiungi al carrello</button>
+               </div>
+          </div>
+     </section>
+           <!-- Auto 8: Jeep -->
+          <div class="car-card">
+          <img src="images/JEEP-WRANGLER.jpg" alt="Jeep" class="car-image">
+          <div class="car-info">
+          <h3>Jeep Wrangler</h3>
+          <p class="price">€7500 al giorno</p>
+          <input type="number" id="quantity-8" min="1" value="1">
+          <button onclick="addToCart('Jeep Wrangler', 7500, document.getElementById('quantity-8').value)">Aggiungi al carrello</button>
+              </div>
+         </div>
+    </section>
+
+              
+             <!-- Elicottero -->
+            <div class="car">
+            <img src="images/lusso.jpg" alt="Elicottero">
+            <h2>Elicottero</h2>
+            <p>Prezzo: €40000 al giorno</p>
+            <button onclick="addToCart('Elicottero', 40000, 1)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <div>
+                
+                <input type="number" id="quantity-helicopter" min="1" value="1">
+                 <data-id="6" data-name="Elicottero" data-price="15000">
+              </div>
+              <div>
+            
+    
+            <!-- Jet Privato -->
+           <div class="car">
+           <img src="images/jet.webp" alt="Jet Privato">
+           <h2>Jet Privato</h2>
+           <p>Prezzo: €75000 al giorno</p>
+           <button onclick="addToCart('Jet Privato', 75000, 1)">Aggiungi al Carrello</button>
+               </div>
+            </div>
+        </section>
+        
+        <input type="number" id="quantity-jet" min="1" value="1">
+        <data-id="7" data-name="Jet Privato" data-price="50000">
+      </div>
+      <div>
+            <!-- Yacht -->
+           <div class="car">
+           <img src="images/yacht.jpg" alt="Yacht">
+           <h2>Yacht</h2>
+           <p>Prezzo: €100000 al giorno</p>
+           <button onclick="addToCart('Yacht', 100000, 1)">Aggiungi al Carrello</button>
+                </div>
+            </div>
+        </section>
+       
+        
+        <input type="number" id="quantity-yacht" min="1" value="1">
+        <data-id="8" data-name="Yacht" data-price="100000">
+      
+      
+     
+<section class="cart">
+    <div class="container">
+        <h2>Carrello</h2>
+        <ul id="cart-list"></ul>
+        <p id="total-price">Totale: €0</p>
+        <button onclick="checkout()">Procedi al pagamento</button>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Noleggio Auto di Lusso. Tutti i diritti riservati.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
